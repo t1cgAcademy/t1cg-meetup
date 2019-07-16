@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //css
 import '../assets/css/App.css';
-import logo from '../assets/images/logo.svg';
 
 //components
 import notFound from '../pages/404';
