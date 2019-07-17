@@ -19,13 +19,13 @@ class Landing extends Component {
     switch (this.state.currentPage) {
       case 'Home':
         return <Home />;
-        break;
+
       case 'About':
         return <About />;
-        break;
+
       case 'Contact':
         return <Contact />;
-        break;
+
       default:
         return <Contact />;
     }
