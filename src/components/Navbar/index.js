@@ -61,6 +61,19 @@ export default function Navbar(props) {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to={'#'}
+                onClick={() => props.handlePageChange('Members')}
+                className={
+                  props.currentPage === 'Members'
+                    ? 'nav-link active'
+                    : 'nav-link'
+                }
+              >
+                Members
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

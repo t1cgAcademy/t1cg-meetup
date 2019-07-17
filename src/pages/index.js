@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+//components
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+
+//pages
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Members from './Members';
 
 class Selector extends Component {
   state = {
@@ -26,6 +30,9 @@ class Selector extends Component {
 
       case 'Contact':
         return <Contact />;
+
+      case 'Members':
+        return <Members />;
 
       default:
         return <Home />;
