@@ -1,7 +1,8 @@
 //react imports
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-//css
+
+//assets and data
 import '../assets/css/App.css';
 
 //components
