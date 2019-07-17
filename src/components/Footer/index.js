@@ -7,7 +7,7 @@ import Col from '../Col';
 
 export default function Footer() {
   return (
-    <footer className="fixed-bottom">
+    <footer className="footer mt-auto py-3 fixed-bottom">
       <Container fluid={true}>
         <Row fluid={true}>
           <Col size={'sm-12'}>
