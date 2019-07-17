@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -40,6 +41,7 @@ class Selector extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer />
       </div>
     );
   }
