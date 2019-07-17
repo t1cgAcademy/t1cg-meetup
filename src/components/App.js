@@ -8,16 +8,19 @@ import '../assets/css/App.css';
 //components
 import notFound from '../pages/404';
 import Selector from '../pages';
+import Wrapper from './Wrapper';
 
 class App extends React.Component {
   render() {
     return (
       <Router>
         <div>
-          <Switch>
-            <Route exact path="/" component={Selector} />
-            <Route component={notFound} />
-          </Switch>
+          <Wrapper>
+            <Switch>
+              <Route exact path="/" component={Selector} />
+              <Route component={notFound} />
+            </Switch>
+          </Wrapper>
         </div>
       </Router>
     );
