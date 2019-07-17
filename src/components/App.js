@@ -7,7 +7,6 @@ import '../assets/css/App.css';
 
 //components
 import notFound from '../pages/404';
-import Landing from '../pages/Landing';
 import Selector from '../pages';
 
 class App extends React.Component {
