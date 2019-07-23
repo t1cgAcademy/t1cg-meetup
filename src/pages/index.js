@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
-import Navbar from '../../components/Navbar';
-import Home from '../Home';
-import About from '../About';
-import Contact from '../Contact';
+//components
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-class Landing extends Component {
+//pages
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import Members from './Members';
+
+class Selector extends Component {
   state = {
     siteName: 'T1CG Meetup Site',
     currentPage: 'Home'
@@ -19,15 +24,18 @@ class Landing extends Component {
     switch (this.state.currentPage) {
       case 'Home':
         return <Home />;
-        break;
+
       case 'About':
         return <About />;
-        break;
+
       case 'Contact':
         return <Contact />;
-        break;
+
+      case 'Members':
+        return <Members />;
+
       default:
-        return <Contact />;
+        return <Home />;
     }
   };
 
@@ -40,9 +48,10 @@ class Landing extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer />
       </div>
     );
   }
 }
 
-export default Landing;
+export default Selector;

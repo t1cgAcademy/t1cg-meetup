@@ -39,6 +39,7 @@ export default function Navbar(props) {
             </li>
             <li className="nav-item">
               <Link
+                to={'#'}
                 onClick={() => props.handlePageChange('About')}
                 className={
                   props.currentPage === 'About' ? 'nav-link active' : 'nav-link'
@@ -49,6 +50,7 @@ export default function Navbar(props) {
             </li>
             <li className="nav-item">
               <Link
+                to={'#'}
                 onClick={() => props.handlePageChange('Contact')}
                 className={
                   props.currentPage === 'Contact'
@@ -57,6 +59,19 @@ export default function Navbar(props) {
                 }
               >
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to={'#'}
+                onClick={() => props.handlePageChange('Members')}
+                className={
+                  props.currentPage === 'Members'
+                    ? 'nav-link active'
+                    : 'nav-link'
+                }
+              >
+                Members
               </Link>
             </li>
           </ul>
