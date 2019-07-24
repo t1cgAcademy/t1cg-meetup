@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.css';
+// import './style.css';
 
 export default function MemberCard(props) {
   return (
-    <div className="card">
+    <div className="card memberCard">
       <div className="img-container">
         <img
           alt={props.Name}
@@ -14,7 +14,7 @@ export default function MemberCard(props) {
           }
         />
       </div>
-      <div className="content">
+      <div className="memberCardContent">
         <ul>
           <li>
             <strong>Name:</strong> {props.Name}

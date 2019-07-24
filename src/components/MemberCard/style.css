@@ -1,4 +1,4 @@
-.card {
+.memberCard {
   background: #fff;
   border-radius: 2px;
   height: 33rem;
@@ -9,28 +9,28 @@
   text-align: left;
 }
 
-.card > .img-container {
+.memberCard > .img-container {
   min-height: 35%;
   overflow: hidden;
   text-align: center;
   background: #6caddc;
 }
-.card > .img-container > img {
+.memberCard > .img-container > img {
   width: 90%;
   height: 95%;
   margin-top: 5px;
 }
 
-.card > .content {
+.memberCard > .content {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-size: 15px;
 }
 
-.card > .content > ul {
+.memberCard > .content > ul {
   list-style-type: none;
 }
 
-.card > .content > ul > li {
+.memberCard > .content > ul > li {
   margin-top: 10px;
 }
