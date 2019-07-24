@@ -1,17 +1,26 @@
 import React from 'react';
 
+//components
+import Jumbotron from '../../components/Jumbotron';
+import Hero from '../../components/Hero';
+import { Col, Row, Container } from '../../components/Grid';
+
 const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nemo
-      sunt. Maxime non assumenda illum eos animi impedit eius repellat enim
-      ipsa. Architecto placeat incidunt hic blanditiis nihil. Impedit
-      voluptatibus quaerat explicabo aliquam quas laudantium at ratione sit.
-      Iusto earum sunt eos alias deserunt! Porro maiores nihil tempora optio
-      corporis?
-    </p>
-  </div>
+  <Jumbotron fluid={true}>
+    <Hero
+      backgroundImage={
+        'https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+      }
+    >
+      <h1>Welcome to the T1CG Meetup Site!</h1>
+    </Hero>
+
+    <Container fluid={true}>
+      <Row fluid={true} justifyContent={'center'}>
+        <Col size={'md-12'}>Test</Col>
+      </Row>
+    </Container>
+  </Jumbotron>
 );
 
 export default Home;
