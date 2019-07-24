@@ -1,9 +1,7 @@
 import React from 'react';
 
-//componenets
-import Container from '../Container';
-import Row from '../Row';
-import Col from '../Col';
+//components
+import { Row, Col, Container } from '../Grid';
 
 export default function Footer() {
   return (

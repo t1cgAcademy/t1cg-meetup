@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 //components
 import Wrapper from '../../components/Wrapper';
 import MemberCard from '../../components/MemberCard';
-import Container from '../../components/Container';
-import Row from '../../components/Row';
-import Col from '../../components/Col';
+import { Container, Row, Col } from '../../components/Grid';
 
 import members from '../../assets/data/members.json';
 
