@@ -13,7 +13,7 @@ export function Row({ fluid, justifyContent, children }) {
     <div
       className={`row${fluid ? '-fluid' : ''} ${
         justifyContent ? `justify-content-${justifyContent}` : ''
-      }`}
+      } mt-4`}
     >
       {children}
     </div>

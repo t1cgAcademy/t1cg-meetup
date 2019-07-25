@@ -18,56 +18,56 @@ const Home = () => (
 
     <Container fluid={true}>
       <Row fluid={false} justifyContent={'center'}>
-        <Col size={'md-6'}>
-          <Card heading={'This has to be a component..'}>
-            <p className="lead border rounded py-3 px-4 mt-3">
+        <Col size={'sm-6'}>
+          <Card heading={'General Schedule'}>
+            <div className="lead border rounded py-3 px-4 mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium est quasi rerum perferendis explicabo voluptatibus
               totam impedit quia. Cumque tenetur ab atque odio dicta vitae.
-              <h3>General Schedule will go here</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
               quisquam beatae perferendis deserunt corporis facere, nemo
               accusantium vero ipsum, cum animi quasi nulla nostrum?
-            </p>
+            </div>
           </Card>
         </Col>
-        <Col size={'md-6'}>
-          <p className="lead border rounded py-3 px-4 mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            est quasi rerum perferendis explicabo voluptatibus totam impedit
-            quia. Cumque tenetur ab atque odio dicta vitae.
-            <h1>This has to be a component too..</h1>
-            <h3>Past/Future Events will go here...</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-            voluptas consequuntur in blanditiis optio quisquam aliquam nisi sed
-            vel dolorum! Possimus dicta in harum molestias?
-          </p>
+
+        <Col size={'sm-6'}>
+          <Card heading={'Past/Future Events'}>
+            <div className="lead border rounded py-3 px-4 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium est quasi rerum perferendis explicabo voluptatibus
+              totam impedit quia. Cumque tenetur ab atque odio dicta vitae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
+              quisquam beatae perferendis deserunt corporis facere, nemo
+              accusantium vero ipsum, cum animi quasi nulla nostrum?
+            </div>
+          </Card>
         </Col>
       </Row>
       <Row fluid={false} justifyContent={'center'}>
-        <Col size={'md-6'}>
-          <p className="lead border rounded py-3 px-4 mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            est quasi rerum perferendis explicabo voluptatibus totam impedit
-            quia. Cumque tenetur ab atque odio dicta vitae.
-            <h1>This has to be a component..</h1>
-            <h3>General Schedule will go here</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
-            quisquam beatae perferendis deserunt corporis facere, nemo
-            accusantium vero ipsum, cum animi quasi nulla nostrum?
-          </p>
+        <Col size={'sm-6'}>
+          <Card heading={'Member Attendance'}>
+            <div className="lead border rounded py-3 px-4 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium est quasi rerum perferendis explicabo voluptatibus
+              totam impedit quia. Cumque tenetur ab atque odio dicta vitae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
+              quisquam beatae perferendis deserunt corporis facere, nemo
+              accusantium vero ipsum, cum animi quasi nulla nostrum?
+            </div>
+          </Card>
         </Col>
-        <Col size={'md-6'}>
-          <p className="lead border rounded py-3 px-4 mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            est quasi rerum perferendis explicabo voluptatibus totam impedit
-            quia. Cumque tenetur ab atque odio dicta vitae.
-            <h1>This has to be a component too..</h1>
-            <h3>Past/Future Events will go here...</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-            voluptas consequuntur in blanditiis optio quisquam aliquam nisi sed
-            vel dolorum! Possimus dicta in harum molestias?
-          </p>
+        <Col size={'sm-6'}>
+          <Card heading={'Meetup/event Info/etc..'}>
+            <div className="lead border rounded py-3 px-4 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium est quasi rerum perferendis explicabo voluptatibus
+              totam impedit quia. Cumque tenetur ab atque odio dicta vitae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
+              quisquam beatae perferendis deserunt corporis facere, nemo
+              accusantium vero ipsum, cum animi quasi nulla nostrum?
+            </div>
+          </Card>
         </Col>
       </Row>
     </Container>

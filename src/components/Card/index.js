@@ -3,7 +3,7 @@ import './style.css';
 
 function Card({ heading, children }) {
   return (
-    <div className="card text-center">
+    <div className="card text-center mx-auto">
       <div className="card-header">
         <h2>{heading}</h2>
       </div>
