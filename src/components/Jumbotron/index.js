@@ -8,7 +8,8 @@ export default function Jumbotron({ fluid, title, children }) {
         'jumbotron',
         `${fluid ? 'jumbotron-fluid' : ''}`,
         'rounded',
-        'pt-0'
+        'pt-0',
+        'm-0'
       ].join(' ')}
     >
       <h1>{title}</h1>

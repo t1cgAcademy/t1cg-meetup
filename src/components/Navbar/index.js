@@ -30,7 +30,9 @@ export default function Navbar(props) {
               to={'/'}
               onClick={() => props.handlePageChange('Home')}
               className={
-                props.currentPage === 'Home' ? 'nav-link active' : 'nav-link'
+                props.currentPage === 'Home'
+                  ? 'nav-link active btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-outline-primary m-1'
               }
             >
               Home
@@ -41,7 +43,9 @@ export default function Navbar(props) {
               to={'#'}
               onClick={() => props.handlePageChange('About')}
               className={
-                props.currentPage === 'About' ? 'nav-link active' : 'nav-link'
+                props.currentPage === 'About'
+                  ? 'nav-link active btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-outline-primary m-1'
               }
             >
               About
@@ -52,7 +56,9 @@ export default function Navbar(props) {
               to={'#'}
               onClick={() => props.handlePageChange('Contact')}
               className={
-                props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+                props.currentPage === 'Contact'
+                  ? 'nav-link active btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-outline-primary m-1'
               }
             >
               Contact
@@ -63,7 +69,9 @@ export default function Navbar(props) {
               to={'#'}
               onClick={() => props.handlePageChange('Members')}
               className={
-                props.currentPage === 'Members' ? 'nav-link active' : 'nav-link'
+                props.currentPage === 'Members'
+                  ? 'nav-link active btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-outline-primary m-1'
               }
             >
               Members
