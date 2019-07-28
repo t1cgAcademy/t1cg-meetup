@@ -11,7 +11,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 //pages
-import Landing from '../pages';
 import notFound from '../pages/404';
 import Home from '../pages/Home';
 import About from '../pages/About';
