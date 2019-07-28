@@ -32,7 +32,7 @@ export default function Navbar(props) {
               className={
                 props.currentPage === 'Home'
                   ? 'nav-link active btn btn-outline-primary m-1'
-                  : 'nav-link btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-secondary m-1 text-light'
               }
             >
               Home
@@ -40,12 +40,12 @@ export default function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to={'#'}
+              to={'/about'}
               onClick={() => props.handlePageChange('About')}
               className={
                 props.currentPage === 'About'
                   ? 'nav-link active btn btn-outline-primary m-1'
-                  : 'nav-link btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-secondary m-1 text-light'
               }
             >
               About
@@ -53,12 +53,12 @@ export default function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to={'#'}
+              to={'/contact'}
               onClick={() => props.handlePageChange('Contact')}
               className={
                 props.currentPage === 'Contact'
                   ? 'nav-link active btn btn-outline-primary m-1'
-                  : 'nav-link btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-secondary m-1 text-light'
               }
             >
               Contact
@@ -66,12 +66,12 @@ export default function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to={'#'}
+              to={'/members'}
               onClick={() => props.handlePageChange('Members')}
               className={
                 props.currentPage === 'Members'
                   ? 'nav-link active btn btn-outline-primary m-1'
-                  : 'nav-link btn btn-outline-primary m-1'
+                  : 'nav-link btn btn-secondary m-1 text-light'
               }
             >
               Members
