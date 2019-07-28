@@ -6,10 +6,11 @@ const apiRoutes = require('./api');
 router.use('/api', apiRoutes);
 
 router.get('/', (req, res) => {
-  res.json({
-    msg: 'path not found',
-    code: 500
-  });
+    //if they are seeing this msg, path works. I don't want anyone else to access the backend, only the app.
+    res.status(500).json({
+        msg: 'path not found',
+        code: 500
+    });
 });
 
 module.exports = router;
