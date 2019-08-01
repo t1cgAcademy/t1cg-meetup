@@ -1,0 +1,15 @@
+.github-icon{
+    color: black;
+}
+
+.github-icon:hover {
+    color: #3e64ff;
+}
+
+.meetup-icon {
+    color: #ff4c68;
+}
+
+.meetup-icon:hover {
+    color: #3e64ff;
+}

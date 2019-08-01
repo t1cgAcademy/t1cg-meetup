@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 //components
 import { Row, Col, Container } from '../Grid';
@@ -7,11 +8,6 @@ export default function Footer() {
   return (
     <footer className="footer mt-auto py-0 fixed-bottom">
       <Container fluid={true}>
-        <Row fluid={true}>
-          <Col size={'sm-12'}>
-            <p>This site is created for the Meetup with ♥</p>
-          </Col>
-        </Row>
         <Row fluid={false} justifyContent={'center'}>
           <Col size={'sm-6'}>
             <a
@@ -19,8 +15,9 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              T1CG Meetup Repo
+              <i className="github-icon fab fa-github fa-5x"></i>
             </a>
+            <p>T1CG Meetup Repo</p>
           </Col>
           <Col size={'sm-6'}>
             <a
@@ -28,8 +25,15 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Check us out on Meetup
+              <i className="meetup-icon fab fa-meetup fa-5x"></i>
             </a>
+            <p>Check us out on Meetup</p>
+          </Col>
+        </Row>
+        <Row fluid={true}>
+          <Col size={'sm-12'}>
+            <p>This site is created for the Meetup with ♥</p>
+            <p>© Copyright 2019 Tier 1 Consulting Group</p>
           </Col>
         </Row>
       </Container>
