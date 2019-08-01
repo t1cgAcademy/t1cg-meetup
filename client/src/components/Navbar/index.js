@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/t1cg-logo.png';
+import './style.css';
 
 /* 
 I totally forgot the link's we're supposed to have but made some made-up pages
@@ -9,6 +11,7 @@ export default function Navbar(props) {
     return (
         <nav className='navbar navbar-expand-sm navbar-light bg-light'>
             <Link to={'/'} className='navbar-brand'>
+            <img className="nav-logo" src={logo} alt="Tier 1 Consulting Group Logo" ></img>
                 {props.siteName}
             </Link>
             <button
