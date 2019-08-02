@@ -6,7 +6,7 @@ import { Row, Col, Container } from '../Grid';
 
 export default function Footer() {
   return (
-    <footer className="footer mt-auto py-0 fixed-bottom">
+    <footer className="footer mt-auto py-0">
       <Container fluid={true}>
         <Row fluid={false} justifyContent={'center'}>
           <Col size={'sm-6'}>

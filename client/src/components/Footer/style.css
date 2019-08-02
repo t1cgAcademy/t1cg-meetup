@@ -13,3 +13,7 @@
 .meetup-icon:hover {
     color: #3e64ff;
 }
+
+.footer {
+    position: relative;
+}
