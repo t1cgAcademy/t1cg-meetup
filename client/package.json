@@ -2,11 +2,11 @@
   "name": "t1cg-meetup",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:3002/",
   "dependencies": {
     "axios": "^0.19.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
