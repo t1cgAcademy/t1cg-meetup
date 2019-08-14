@@ -34,5 +34,16 @@
     "Facebook": false,
     "LinkedIn": "https://www.linkedin.com/in/alexander-vela",
     "Github": "https://www.github.com/alexandervela"
+  },
+  {
+    "id": 4,
+    "Name": "James Nutter",
+    "imgURL": "",
+    "Occupation": "Full Stack Developer",
+    "Bio": "GOAT Programmer",
+    "socialMedia": false,
+    "Twitter": false,
+    "Facebook": false,
+    "Github": "https://www.github.com/chaznut"
   }
 ]
