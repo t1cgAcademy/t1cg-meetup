@@ -11,7 +11,7 @@ export default function Footer() {
         <Row fluid={false} justifyContent={'center'}>
           <Col size={'sm-6'}>
             <a
-              href="https://github.com/t1cgAcademy/t1cg-meetup"
+              href="https://github.com/t1cgAcademy"
               target="_blank"
               rel="noopener noreferrer"
             >
