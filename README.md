@@ -17,7 +17,9 @@ Open up your terminal
 1. git clone https://github.com/t1cgAcademy/t1cg-meetup.git
 2. cd into the project directory (`cd t1cg-meetup`)
 3. You can now run:
+### `npm install`
 
+4. Start the site with:
 ### `npm start`
 
 Runs the app in the development mode.<br>
