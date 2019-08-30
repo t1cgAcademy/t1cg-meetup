@@ -45,5 +45,17 @@
     "Twitter": false,
     "Facebook": false,
     "Github": "https://www.github.com/chaznut"
+  },
+  {
+    "id": 5,
+    "Name": "Bola Adebesin",
+    "imgURL": "https://imgur.com/a/fiArqqj",
+    "Occupation": "Aspiring Front End Web Developer",
+    "Bio": "I am a self-taught web developer. For me, coding is the perfect blend of critical thinking and creativity.",
+    "socialMedia": true,
+    "Twitter": false,
+    "Facebook": false,
+    "LinkedIn": "https://www.linkedin.com/in/mobolanle-adebesin/",
+    "Github": "https://github.com/MobolanleAdebesin" 
   }
 ]
