@@ -8,6 +8,10 @@
   text-align: left;
 }
 
+.card-header {
+  font-family: 'Raleway-Black', Arial, Helvetica, sans-serif
+}
+
 .card > .img-container {
   min-height: 35%;
   overflow: hidden;
