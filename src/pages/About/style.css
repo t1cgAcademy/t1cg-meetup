@@ -1,16 +1,17 @@
-/*
 .about-header {
+    font-family: 'Raleway-Bold', sans-serif;
 }
-*/
 .about-text {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     margin: 5%;
 }
 
 .address-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
 .address-text-first {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     margin-top: 10%;
 }
 
@@ -21,4 +22,4 @@
 
 .social-icon {
     margin-right: 5px;
-  }
+}

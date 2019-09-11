@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 const Contact = () => (
   <div>
-    <h1>Contact Page</h1>
-    <p>
+    <h1 className="contact-header">Contact Page</h1>
+    <p className="contact-text">
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
       molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
       magna a ultrices. Aenean pellentesque placerat lacus imperdiet efficitur.

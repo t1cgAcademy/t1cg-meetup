@@ -17,7 +17,7 @@ export default function Footer() {
             >
               <i className="github-icon fab fa-github fa-5x"></i>
             </a>
-            <p>T1CG Meetup Repo</p>
+            <p className="footer-text">T1CG Meetup Repo</p>
           </Col>
           <Col size={'sm-6'}>
             <a
@@ -27,13 +27,13 @@ export default function Footer() {
             >
               <i className="meetup-icon fab fa-meetup fa-5x"></i>
             </a>
-            <p>Check us out on Meetup</p>
+            <p className="footer-text">Check us out on Meetup</p>
           </Col>
         </Row>
         <Row fluid={true}>
           <Col size={'sm-12'}>
-            <p>This site is created for the Meetup with ♥</p>
-            <p>© Copyright 2019 Tier 1 Consulting Group</p>
+            <p className="footer-text">This site is created for the Meetup with ♥</p>
+            <p className="footer-text">© Copyright 2019 Tier 1 Consulting Group</p>
           </Col>
         </Row>
       </Container>
