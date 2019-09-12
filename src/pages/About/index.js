@@ -10,8 +10,8 @@ import { Container, Row, Col } from '../../components/Grid';
 const About = () => (
     <Wrapper>
         <Container fluid={true}>
-            <Row>
-                <Col size={'md-12'}>
+            <Row classNames="mt-4">
+                <Col size={'lg-12'}>
                     <h1 className="about-header">About Us</h1>
                     <p className="about-text">
                         Tier 1 Consulting Group is a small, domestic technology
@@ -25,7 +25,7 @@ const About = () => (
                         bottom, the outcome will be inconsistent and ephemeral.
                     </p>
                 </Col>
-                <Col size={'md-12'}>
+                <Col size={'lg-12'}>
                     <h1 className="about-header">Accomplishments</h1>
                     <p className="about-text">
                         Nunc pharetra finibus est at efficitur. Praesent sed
@@ -38,7 +38,7 @@ const About = () => (
                         sit amet facilisis lectus blandit at.
                     </p>
                 </Col>
-                <Col size={'md-12'}>
+                <Col size={'lg-12'}>
                     <h1 className="about-header">Company/Meetup</h1>
                     <p className="about-text">
                         Tier 1 Consulting Group hosts a monthly meet up called
@@ -53,21 +53,21 @@ const About = () => (
                         event today!
                     </p>
                 </Col>
-                <Col size={'md-6'}>
+                <Col size={'lg-6'}>
                     <img
                         className="map-img"
                         src={map}
                         alt="map of office location"
                     ></img>
                 </Col>
-                <Col size={'md-3'}>
+                <Col size={'lg-3'}>
                     <h2 className="about-header">Address</h2>
                     <p className="address-text-first">Columbia Office</p>
                     <p className="address-text">10420 Little Patuxent Pkwy</p>
                     <p className="address-text">Suite 440</p>
                     <p className="address-text">Columbia, MD 21044</p>
                 </Col>
-                <Col size={'md-3'}>
+                <Col size={'lg-3'}>
                     <h2 className="about-header">Contact Info</h2>
                     <p className="address-text-first">
                         <i className="social-icon fas fa-envelope"></i>
