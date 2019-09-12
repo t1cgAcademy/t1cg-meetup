@@ -17,9 +17,11 @@ Open up your terminal
 1. git clone https://github.com/t1cgAcademy/t1cg-meetup.git
 2. cd into the project directory (`cd t1cg-meetup`)
 3. You can now run:
+
 ### `npm install`
 
 4. Start the site with:
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -127,30 +129,60 @@ $ git merge [branch]
 Combines bookmark’s branch into current local branch
 ```
 
----
+##### ADDING YOURSELF TO MEMBERS
+
+Open up `src\assets\data\members.json` on the editor and add these fields in:
+
+```json
+{
+    "id": 99,
+    "Name": "Your Name",
+    "imgURL": "Profile Picture URL",
+    "Occupation": "Your Occupation",
+    "Bio": "Your Bio",
+    "Twitter": "@twitterHandle",
+    "Facebook": "Full link to Facebook profile",
+    "LinkedIn": "Full link to LinkedIn profile",
+    "Github": "Full link to Github profile"
+}
+```
+
+| Key        | Example Value                                                                        | Purpose                                                                                                                                                     |
+| ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id         | 99                                                                                   | React wants to keep track of dynamically created elements, this is good practice. _**Make sure to increment the last value, and don't repeat the same id**_ |
+| Name       | Bob Ross                                                                             | Your Name                                                                                                                                                   |
+| imgURL     | https://i.imgur.com/9zrX9Tn.gif                                                      | Make sure to paste in the image address, not the album address. Right click on the image, click "Copy image address"                                        |
+| Occupation | Painter                                                                              | Your occupation                                                                                                                                             |
+| Bio        | Master Sergeant for US Air Force turned Painter, Television host, and Art Instructor | Your Bio                                                                                                                                                    |
+| Twitter    | @BobRossOfficial                                                                     | Make sure to add `@` followed by your username                                                                                                              |
+| Facebook   | https://www.facebook.com/TheJoyofPaintingWithBobRoss/                                | Paste in your full Facebook link                                                                                                                            |
+| LinkedIn   | https://www.linkedin.com/in/BobRossDoesntHaveLinkedIn/                               | Paste in your full LinkedIn link                                                                                                                            |
+| Github     | https://www.github.com/BobRossDoesntHaveGitHub                                       | Paste in your full Github link                                                                                                                              |
+
+### Note: If you don't have any of the `keys`, set the value to `false`
 
 ## Helpful Links For Learning
 
 ##### HTML
 
-- [HTML Cheat Sheet](https://digital.com/tools/html-cheatsheet/)
-- [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [HTML Tutorial](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-- [HTML Tutorials](http://www.htmldog.com/guides/html/beginner/)
+-   [HTML Cheat Sheet](https://digital.com/tools/html-cheatsheet/)
+-   [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+-   [HTML Tutorial](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+-   [HTML Tutorials](http://www.htmldog.com/guides/html/beginner/)
 
 ###### CSS
 
-- [CSS Cheat Sheet](https://www.onblastblog.com/css3-cheat-sheet/)
-- [CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
-- [CSS Tutorial](http://www.htmldog.com/guides/css/beginner/)
+-   [CSS Cheat Sheet](https://www.onblastblog.com/css3-cheat-sheet/)
+-   [CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
+-   [CSS Tutorial](http://www.htmldog.com/guides/css/beginner/)
 
 ##### JS
 
-- [JS Cheat Sheet](https://github.com/mbeaudru/modern-js-cheatsheet)
-- [JS Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [JS Cheat Sheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+-   [JS Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ##### React
 
-- [React Cheat Sheet](https://github.com/vincsb/react-cheat-sheet)
-- [React Documentation](https://reactjs.org/docs/hello-world.html)
-- [React Tutorial](https://reactjs.org/tutorial/tutorial.html#what-are-we-building)
+-   [React Cheat Sheet](https://github.com/vincsb/react-cheat-sheet)
+-   [React Documentation](https://reactjs.org/docs/hello-world.html)
+-   [React Tutorial](https://reactjs.org/tutorial/tutorial.html#what-are-we-building)
