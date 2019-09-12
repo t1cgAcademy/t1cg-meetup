@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Row, Col } from '../Grid';
+
 import './style.css';
 
 export default function MemberCard({
@@ -14,14 +16,17 @@ export default function MemberCard({
 }) {
     return (
         <div className="card memberCard">
-            <div className="container bg-dark">
-                <div className="row">
-                    <div className="col-lg-12 text-center h2 text-light">
+            <Container classNames="bg-dark">
+                <Row classNames="my-1">
+                    <Col
+                        size={'lg-12'}
+                        classNames="text-center h2 text-light memberCard-header"
+                    >
                         {Name}
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12 text-center">
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size="lg-12" classNames="text-center">
                         <div className="img-container">
                             <img
                                 style={{ maxWidth: '15rem' }}
@@ -34,9 +39,9 @@ export default function MemberCard({
                                 }
                             />
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
             <div className="memberCardContent">
                 <ul>
                     <li>
@@ -47,6 +52,7 @@ export default function MemberCard({
                         <strong>Bio:</strong>{' '}
                         {Bio.length < 1 ? `Hello! My name is ${Name}` : Bio}
                     </li>
+                    {/* the <> is a fragment, allows you to stack elements. Difference between shorthand <> vs. <React.Fragment> is, you can't pass props with shorthand */}
                     <>
                         {Twitter ? (
                             <li>
