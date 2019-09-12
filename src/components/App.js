@@ -19,12 +19,7 @@ import Contact from '../pages/Contact';
 
 class App extends React.Component {
     state = {
-        siteName: 'T1CG Meetup Site',
-        currentPage: 'Home'
-    };
-
-    handlePageChange = page => {
-        this.setState({ currentPage: page });
+        siteName: 'T1CG Meetup Site'
     };
 
     render() {
@@ -35,7 +30,6 @@ class App extends React.Component {
                         <Navbar
                             siteName={this.state.siteName}
                             currentPage={this.state.currentPage}
-                            handlePageChange={this.handlePageChange}
                         />
                         <Switch>
                             <Route exact path="/" component={Home} />
