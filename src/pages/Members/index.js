@@ -12,7 +12,7 @@ export default function Members() {
         <Container fluid={true}>
             <Row justifyContent={'center'}>
                 {members.map(member => (
-                    <Col size={'lg-4'} key={member.id}>
+                    <Col size={'lg-4'} key={member.id} classNames="my-2">
                         <MemberCard
                             id={member.id}
                             Name={member.Name}
