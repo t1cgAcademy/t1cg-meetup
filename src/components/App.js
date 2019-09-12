@@ -32,7 +32,13 @@ class App extends React.Component {
                             currentPage={this.state.currentPage}
                         />
                         <Switch>
-                            <Route exact path="/" component={Home} />
+                            <Route
+                                exact
+                                path="/"
+                                render={() => (
+                                    <Home siteName={this.state.siteName} />
+                                )}
+                            />
                             <Route exact path="/about" component={About} />
                             <Route exact path="/contact" component={Contact} />
                             <Route exact path="/members" component={Members} />
