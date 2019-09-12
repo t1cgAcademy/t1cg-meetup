@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import Jumbotron from '../../components/Jumbotron';
+import { Container, Row, Col } from '../../components/Grid';
 
 import './style.css';
 
 export default function notFound() {
     return (
-        <div className="container mt-5">
-            <div className="row">
-                <div className="col-md-12">
+        <Container fluid={true}>
+            <Row>
+                <Col size="lg-12">
                     <Jumbotron
                         id="notFound"
                         fluid={true}
@@ -23,8 +24,8 @@ export default function notFound() {
                             </Link>
                         </Button>
                     </Jumbotron>
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row>
+        </Container>
     );
 }
