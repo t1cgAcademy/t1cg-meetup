@@ -14,6 +14,14 @@
     color: #3e64ff;
 }
 
+.slack-icon {
+    color: #01d28e;
+}
+
+.slack-icon:hover {
+    color: #3e64ff;
+}
+
 .footer-text {
     font-family: 'Ubuntu', sans-serif;
 }
