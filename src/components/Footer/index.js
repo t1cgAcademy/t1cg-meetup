@@ -27,7 +27,7 @@ export default function Footer() {
             >
               <i className="slack-icon fab fa-slack-hash fa-5x"></i>
             </a>
-            <p className="footer-text">Join our us on Slack</p>
+            <p className="footer-text">Join us on Slack</p>
           </Col>
           <Col size={'sm-4'}>
             <a
