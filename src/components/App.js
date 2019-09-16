@@ -18,38 +18,38 @@ import Members from '../pages/Members';
 import Contact from '../pages/Contact';
 
 class App extends React.Component {
-  state = {
-    siteName: 'T1CG Meetup Site',
-    currentPage: 'Home'
-  };
+    state = {
+        siteName: 'T1CG Meetup Site'
+    };
 
-  handlePageChange = page => {
-    this.setState({ currentPage: page });
-  };
-
-  render() {
-    return (
-      <Router>
-        <div className="App">
-          <Wrapper>
-            <Navbar
-              siteName={this.state.siteName}
-              currentPage={this.state.currentPage}
-              handlePageChange={this.handlePageChange}
-            />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/members" component={Members} />
-              <Route component={notFound} />
-            </Switch>
-            <Footer />
-          </Wrapper>
-        </div>
-      </Router>
-    );
-  }
+    render() {
+        return (
+            <Router>
+                <div className="App">
+                    <Wrapper>
+                        <Navbar
+                            siteName={this.state.siteName}
+                            currentPage={this.state.currentPage}
+                        />
+                        <Switch>
+                            <Route
+                                exact
+                                path="/"
+                                render={() => (
+                                    <Home siteName={this.state.siteName} />
+                                )}
+                            />
+                            <Route exact path="/about" component={About} />
+                            <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/members" component={Members} />
+                            <Route component={notFound} />
+                        </Switch>
+                        <Footer />
+                    </Wrapper>
+                </div>
+            </Router>
+        );
+    }
 }
 
 export default App;

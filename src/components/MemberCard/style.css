@@ -1,36 +1,45 @@
 .memberCard {
-  background: #fff;
-  border-radius: 2px;
-  height: 33rem;
-  margin: 1rem 0 1rem 0;
-  position: relative;
-  width: 450px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  text-align: left;
+    background: #fff;
+    border-radius: 2px;
+    height: 100%;
+
+    position: relative;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
 }
 
-.memberCard > .img-container {
-  min-height: 35%;
-  overflow: hidden;
-  text-align: center;
-  background: #6caddc;
-}
-.memberCard > .img-container > img {
-  width: 90%;
-  height: 95%;
-  margin-top: 5px;
+.memberCard-header {
+    font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
 }
 
+.img-container {
+    background: #007bff;
+}
+img {
+    width: 15rem;
+    height: 15rem;
+    margin: 5px 0;
+    box-shadow: 0 3px 6px;
+}
 .memberCard > .content {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 15px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
 }
 
 .memberCard > .content > ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .memberCard > .content > ul > li {
-  margin-top: 10px;
+    margin-top: 10px;
+}
+
+/* For mobile responsiveness */
+
+@media only screen and (min-width: 100px) {
+    .memberCard {
+        max-height: 100%;
+        overflow: auto;
+    }
 }

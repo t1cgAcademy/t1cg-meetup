@@ -1,14 +1,19 @@
 import React from 'react';
 
-function Button({ type = 'default', className, children, onClick }) {
-  return (
-    <button
-      onClick={onClick}
-      className={['btn btn-lg', `btn-${type}`, className].join(' ')}
-    >
-      {children}
-    </button>
-  );
+export default function Button({
+    type = 'button',
+    btnStyle = 'default',
+    className,
+    children,
+    onClick
+}) {
+    return (
+        <button
+            type={type}
+            onClick={onClick ? onClick : null}
+            className={['btn', `btn-${btnStyle}`, className].join(' ')}
+        >
+            {children ? children : `Empty Button`}
+        </button>
+    );
 }
-
-export default Button;
