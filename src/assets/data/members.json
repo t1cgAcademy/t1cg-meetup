@@ -6,9 +6,9 @@
         "Occupation": "Technical Analyst",
         "Bio": "I majored in Computer Science at Towson University. Passionate about all things full stack web development. In my free time I enjoy video games, soccer, and working out.",
         "Twitter": "@tonydecarlo11",
-        "Facebook": "https://www.facebook.com/tony.decarlo.777",
-        "LinkedIn": "https://www.linkedin.com/in/anthony-decarlo-521010108/",
-        "Github": "https://www.github.com/tony-decarlo-t1cg"
+        "Facebook": "tony.decarlo.777",
+        "LinkedIn": "anthony-decarlo-521010108/",
+        "Github": "tony-decarlo-t1cg"
     },
     {
         "id": 2,
@@ -18,8 +18,8 @@
         "Bio": "Self-taught coder. GW Coding boot camp graduate and TA. All things Javascript enthusiast.",
         "Twitter": "@entofmd",
         "Facebook": false,
-        "LinkedIn": "https://www.linkedin.com/in/ashell-fernando/",
-        "Github": "https://www.github.com/entofmd"
+        "LinkedIn": "ashell-fernando",
+        "Github": "entofmd"
     },
     {
         "id": 3,
@@ -29,8 +29,8 @@
         "Bio": "I’m a recent graduate of Bloc’s online Web Development Mentorship program. I love learning and am always excited to pick up some new skills. Aside from web development I’m also passionate about gaming and food.",
         "Twitter": false,
         "Facebook": false,
-        "LinkedIn": "https://www.linkedin.com/in/alexander-vela",
-        "Github": "https://www.github.com/alexandervela"
+        "LinkedIn": "alexander-vela",
+        "Github": "alexandervela"
     },
     {
         "id": 4,
@@ -40,7 +40,7 @@
         "Bio": "GOAT Programmer",
         "Twitter": false,
         "Facebook": false,
-        "Github": "https://www.github.com/chaznut"
+        "Github": "chaznut"
     },
     {
         "id": 5,
@@ -50,7 +50,20 @@
         "Bio": "I am a self-taught web developer. For me, coding is the perfect blend of critical thinking and creativity.",
         "Twitter": false,
         "Facebook": false,
-        "LinkedIn": "https://www.linkedin.com/in/mobolanle-adebesin/",
-        "Github": "https://github.com/MobolanleAdebesin"
+        "LinkedIn": "mobolanle-adebesin",
+        "Github": "MobolanleAdebesin"
+    },   
+    {
+        "id": 6,
+        "Name": "Jonathan Amparo",
+        "imgURL": "",
+        "Occupation": "Junior Front End Developer",
+        "Bio": "I'm a recent graduate from Collège Herzing's Programmer Analyst Course. During my time there, I became passionate about web development.",
+        "socialMedia": "https://jonamparo.github.io/portfolio/index.html", 
+        "Twitter": "@Murdar0",
+        "Facebook": false,
+        "Github": "JonAmparo",
+        "LinkedIn": "JonathanAmparo"
+
     }
 ]

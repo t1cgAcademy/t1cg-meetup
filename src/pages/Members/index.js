@@ -10,9 +10,9 @@ import members from '../../assets/data/members.json';
 export default function Members() {
     return (
         <Container fluid={true}>
-            <Row justifyContent={'center'}>
+            <Row justifyContent={'center'} classNames="my-5">
                 {members.map(member => (
-                    <Col size={'lg-4'} key={member.id} classNames="my-2">
+                    <Col size={'lg-4'} key={member.id} classNames="mb-5">
                         <MemberCard
                             id={member.id}
                             Name={member.Name}
