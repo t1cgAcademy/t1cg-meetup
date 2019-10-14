@@ -65,5 +65,16 @@
         "Github": "JonAmparo",
         "LinkedIn": "JonathanAmparo"
 
-    }
+    },
+    {
+    "id": 7,
+    "Name": "Nathaniel Choe",
+    "imgURL": "",
+    "Occupation": "Aspiring Developer",
+    "Bio": "Currently a student of Criminology, but teaching myself to program to acquire a broader skillset. Like many others of my age, I grew up with computers and video games in my house. Learning to interact and build such technologies is exciting and feels like coming home!",
+    "Twitter": false,
+    "Facebook": "https://www.facebook.com/nathaniel.choe/",
+    "LinkedIn": false,
+    "Github": "https://github.com/nathanielchoe"
+}
 ]
