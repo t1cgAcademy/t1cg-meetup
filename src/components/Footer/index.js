@@ -42,7 +42,7 @@ export default function Footer() {
         </Row>
         <Row fluid={true}>
           <Col size={'sm-12'}>
-            <p className="footer-text">This site is created for the Meetup with ♥</p>
+            <p className="footer-text-indent">This site is created for the Meetup with ♥</p>
             <p className="footer-text">© Copyright 2019 Tier 1 Consulting Group</p>
           </Col>
         </Row>

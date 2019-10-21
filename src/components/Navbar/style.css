@@ -1,11 +1,11 @@
 .nav-logo {
-    height: 20%;
-    margin-right: 5px;
-    width: 20%;
+    height: 4.5rem;
+    margin-right: 0.5rem;
+    width: 4.5rem;
 }
 
 .nav-item {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    padding: 2%;
+    padding: 0.2rem;
     font-weight: 900;
 }

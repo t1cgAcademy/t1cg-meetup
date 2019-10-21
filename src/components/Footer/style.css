@@ -1,5 +1,6 @@
 .github-icon {
     color: black;
+    margin: 1rem
 }
 
 .github-icon:hover {
@@ -8,6 +9,7 @@
 
 .meetup-icon {
     color: #ff4c68;
+    margin: 1rem;
 }
 
 .meetup-icon:hover {
@@ -16,6 +18,7 @@
 
 .slack-icon {
     color: #01d28e;
+    margin: 1rem;
 }
 
 .slack-icon:hover {
@@ -24,6 +27,11 @@
 
 .footer-text {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-text-indent {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1rem;
 }
 
 .footer {

@@ -1,8 +1,24 @@
+.contact-form {
+    text-align: left;
+}
+
 .contact-header {
     font-family: 'Raleway-Bold', sans-serif;
-    margin: 2%;
+    font-size: 3rem;
+    margin: 1rem 2rem 1.5rem;
 }
 .contact-text {
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-    margin: 5%;
+    font-size: 1.2rem;
+    margin: 3rem;
+}
+
+.submit-button {
+    margin-bottom: 2rem;
+}
+
+.fa-comment-alt {
+    color: #007bff;
+    margin-left: 1rem;
+    size: 2rem;
 }
