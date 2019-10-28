@@ -8,6 +8,10 @@
     text-align: left;
 }
 
+.memberCard:hover {
+    scale(1.1);
+}
+
 .memberCard-header {
     font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
 }
